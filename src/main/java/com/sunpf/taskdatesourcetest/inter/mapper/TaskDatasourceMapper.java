@@ -29,8 +29,10 @@ public interface TaskDatasourceMapper {
     TaskDatasource selectTaskDatasourceById(String task_id);
 
 
+
     @Update("update task_datasource set isruning=#{newTaskDatasource.isruning},UUID=#{newTaskDatasource.UUID} where task_id=#{oldTaskDatasource.task_id} and isruning=#{oldTaskDatasource.isruning} and UUID=#{oldTaskDatasource.UUID}")
     Integer updateTaskDatasourceIsRuning(TaskDatasource newTaskDatasource,TaskDatasource oldTaskDatasource);
+
 
 
 

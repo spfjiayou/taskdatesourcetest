@@ -9,8 +9,18 @@ public class TaskDatasource {
     private String status;
     private String cron;
     private String classpath;
+
+
     private String ex_method;
-    private String cyrrent_thread;
+    private String current_thead;
+
+    public String getCurrent_thead() {
+        return current_thead;
+    }
+
+    public void setCurrent_thead(String current_thead) {
+        this.current_thead = current_thead;
+    }
 
     public void setTask_id(String task_id) {
         this.task_id = task_id;
@@ -42,10 +52,6 @@ public class TaskDatasource {
 
     public void setEx_method(String ex_method) {
         this.ex_method = ex_method;
-    }
-
-    public void setCyrrent_thread(String cyrrent_thread) {
-        this.cyrrent_thread = cyrrent_thread;
     }
 
     public String getTask_id() {
@@ -80,7 +86,4 @@ public class TaskDatasource {
         return ex_method;
     }
 
-    public String getCyrrent_thread() {
-        return cyrrent_thread;
-    }
 }

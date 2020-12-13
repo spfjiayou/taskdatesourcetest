@@ -1,0 +1,14 @@
+Index: src/main/java/com/sunpf/taskdatesourcetest/component/ScheduleTask.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/java/com/sunpf/taskdatesourcetest/component/ScheduleTask.java	(revision 10e7a3dfe63d9c28b41f93c0b66d028b8fda1521)
++++ src/main/java/com/sunpf/taskdatesourcetest/component/ScheduleTask.java	(date 1607071837570)
+@@ -14,5 +14,6 @@
+     @Override
+     public void configureTasks(ScheduledTaskRegistrar scheduledTaskRegistrar) {
+ 
++
+     }
+ }
