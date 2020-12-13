@@ -16,6 +16,7 @@ public class MytaskThree {
         logger.info("定时任务"+this.getClass().getName()+"开始执行.......");
         Thread.sleep(5000);
         logger.info("定时任务"+this.getClass().getName()+"执行完毕Sun.......");
+
     }
 
 
